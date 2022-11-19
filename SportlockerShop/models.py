@@ -13,6 +13,7 @@ class Ropa(models.Model):
     precio=models.IntegerField()
     descripcion=models.TextField()
     cantidad=models.IntegerField()
+    talla=models.CharField(max_length=2)
 
 class Compra(models.Model):
     usuario=models.ForeignKey(Usuario,on_delete=models.CASCADE)
