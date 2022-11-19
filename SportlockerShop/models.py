@@ -19,3 +19,9 @@ class Compra(models.Model):
     usuario=models.ForeignKey(Usuario,on_delete=models.CASCADE)
     ropa=models.ManyToManyField(Ropa)
     fechaDeCompra=models.DateField()
+class Zapatilla(models.Model):
+    nombre=models.CharField(max_length=50)
+    precio=models.IntegerField()
+    descripcion=models.TextField()
+    cantidad=models.IntegerField()
+    talla=models.IntegerField()
