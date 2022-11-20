@@ -15,7 +15,8 @@ p
   line-height: 1.7em;}
 
 img
-{ border: 0;}
+{ border: 0;
+}
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
@@ -311,3 +312,19 @@ table tr td
 { background: #F0EFE2;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+.contenidoRopa{
+  font:bold;
+  margin:5% auto;
+}
+.contenidoRopa img{
+  width:30%;
+}
+.contenidoRopa p{
+  margin:5px;
+}
+.listaTopVenta img{
+  width:30%;
+}
+
+

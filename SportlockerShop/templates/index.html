@@ -8,7 +8,7 @@
   <!--<meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" /> -->
-  <link rel="stylesheet" type="text/css" href="" title="style" />
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" title="style" />
 </head>
 
 <body>
@@ -17,7 +17,7 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="localhost:8000/SportlockerShop/">Sportlocker<span class="logo_colour">Shop</span></a></h1>
+          <h1><a href="/SportlockerShop">Sportlocker<span class="logo_colour">Shop</span></a></h1>
           <h2>La mejor tienda de deporte.</h2>
         </div>
       </div>
@@ -25,9 +25,9 @@
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li class="selected"><a href="index.html">Home</a></li>
-          <li><a href="ropa/">Ropa</a></li>
-          <li><a href="zapatillas/">Zapatillas</a></li>
-          <li><a href="registrar/">Iniciar Sesion/Registrar</a></li>
+          <li><a href="/SportlockerShop/ropa">Ropa</a></li>
+          <li><a href="/SportlockerShop/zapatillas">Zapatillas</a></li>
+          <li><a href="/SportlockerShop/registrar">Iniciar Sesion/Registrar</a></li>
         </ul>
       </div>
     </div>
@@ -38,13 +38,11 @@
         <h1>Bienvenidos a SportLockerShop</h1>
         <p>Tu tienda de deporte que cuenta con articulos de ropa y zapatillas para realizar diferentes deporte. Registrate y consigue un 10% de descuento en compras. 
         <h2>Articulos top venta</h2>
-        <p>This template has been tested in the following browsers:</p>
-        <ul>
-          <li>Internet Explorer 8</li>
-          <li>Internet Explorer 7</li>
-          <li>FireFox 3.5</li>
-          <li>Google Chrome 6</li>
-        </ul>
+        <ol class="listaTopVenta">
+          {% for c in topVentas %}
+            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de camiseta"></li>
+          {% endfor %}
+      </ol>
       </div>
     </div>
     <div id="footer">
