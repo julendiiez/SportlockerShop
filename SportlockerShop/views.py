@@ -43,4 +43,5 @@ class TopVentasListView(View):
         }
         return render(request,'index.html',context)
 
-    
+def index(request):
+    return render(request,'acceso.html')

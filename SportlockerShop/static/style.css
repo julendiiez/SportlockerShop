@@ -19,7 +19,7 @@ img
 }
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 175% 'century gothic', arial, sans-serif;
+{ font: normal 225% 'century gothic', arial, sans-serif;
   color: #43423F;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
@@ -319,12 +319,14 @@ table tr td
 }
 .contenidoRopa img{
   width:30%;
+  margin:2%;
 }
 .contenidoRopa p{
   margin:5px;
 }
 .listaTopVenta img{
   width:30%;
+  margin:5%;
 }
 
 
