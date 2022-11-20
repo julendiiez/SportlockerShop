@@ -201,13 +201,31 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #footer
 { width: 900px;
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
-  height: 33px;
+  background-color: #1293EE;
+  height: 50px;
   padding: 24px 0 5px 0;
   text-align: center; 
-  background: #1293EE;
   color: #FFF;
   text-transform: uppercase;
   letter-spacing: 0.1em;}
+
+#footer ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+}
+
+#footer ul li {
+    color: white;
+    display: table-cell;
+    text-align: center;
+    display: table-cell;
+    padding: 10px 20px;
+    text-align: center;
+
+}
 
 #footer a
 { color: #FFF;

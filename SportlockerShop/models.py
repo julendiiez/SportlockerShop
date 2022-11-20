@@ -13,7 +13,8 @@ class Ropa(models.Model):
     precio=models.IntegerField()
     descripcion=models.TextField()
     cantidad=models.IntegerField()
-    imagen=models.TextField(default="")
+    imagen=models.TextField()
+    articuloTop=models.BooleanField(default=False)
 
 
 class Compra(models.Model):
