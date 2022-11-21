@@ -8,7 +8,7 @@ urlpatterns = [
     path('',TopVentasListView.as_view()),
     path('ropa/',RopaListView.as_view()),
     path('zapatillas/',ZapatillasListView.as_view()),
-    path('acceso/',views.index,name='index'),
+    path('acceso/',views.show_form,name='registro'),
 
 
 ]

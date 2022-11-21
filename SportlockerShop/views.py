@@ -1,6 +1,8 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 from .models import Camiseta,Ropa,Sudadera,Zapatilla,Usuario,Compra
 from django .views import View
+from .forms import registrarForm
 
 
 # Create your views here.
@@ -43,5 +45,12 @@ class TopVentasListView(View):
         }
         return render(request,'index.html',context)
 
-def index(request):
-    return render(request,'acceso.html')
+def show_form(request):
+  return render(request,'acceso.html')
+
+def post_form(request):
+    model=Usuario
+    email1=request.POST["your_email"]
+    queryset=Usuario.objects.filter(email=email1)
+    contraseña=request.POST["your_password"]
+
