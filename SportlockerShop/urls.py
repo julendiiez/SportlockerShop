@@ -9,6 +9,7 @@ urlpatterns = [
     path('ropa/',RopaListView.as_view()),
     path('zapatillas/',ZapatillasListView.as_view()),
     path('acceso/',views.show_form,name='registro'),
+    path('accesoCorrecto/',views.post_form,name="correcto")
 
 
 ]

@@ -47,9 +47,16 @@ class TopVentasListView(View):
 def show_form(request):
   return render(request,'acceso.html')
 
-def post_form(request):
+def post_form(self,request):
     model=Usuario
     email1=request.POST["your_email"]
     queryset=Usuario.objects.filter(email=email1)
+    context={
+        'usuario':self.queryset,    
+    }
+    return render(request,'muestraLogin.html',context)
     contraseña=request.POST["your_password"]
+    
+   # else:
+    #    return render(request,'acceso.html')
 

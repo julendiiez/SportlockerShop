@@ -25,7 +25,7 @@
       <div id="menubar">
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected"><a href="/SportLockerShop">Home</a></li>
+          <li><a href="/SportLockerShop">Home</a></li>
           <li><a href="/SportlockerShop/ropa">Ropa</a></li>
           <li><a href="/SportlockerShop/zapatillas">Zapatillas</a></li>
           <li><a href="/SportlockerShop/acceso">Iniciar Sesion/Registrarse</a></li>
@@ -36,16 +36,10 @@
      
       <div id="content">
         <!-- insert the page content here -->
-        <h1>Bienvenidos a SportLockerShop</h1>
-        <p>Tu tienda de deporte que cuenta con articulos de ropa y zapatillas para realizar diferentes deporte. Registrate y consigue un 10% de descuento en compras. 
-        <h2>Articulos más vendidos</h2>
-        <ol class="listaTopVenta">
-          {% for c in topVentas %}
-            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de camiseta"></li>
-          {% endfor %}
-      </ol>
-      </div>
-    </div>
+        {% for c in usuarios %}
+        <h1>Bienvenidos a SportLockerShop {{c.nombre}}</h1>
+        {% endfor %}
+        
     <div id="footer">
       Copyright &copy; SportLockerShop |
     </div>
