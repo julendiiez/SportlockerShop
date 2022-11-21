@@ -2,7 +2,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Camiseta,Ropa,Sudadera,Zapatilla,Usuario,Compra
 from django .views import View
-from .forms import registrarForm
 
 
 # Create your views here.
