@@ -9,7 +9,7 @@ urlpatterns = [
     path('ropa/',RopaListView.as_view()),
     path('zapatillas/',ZapatillasListView.as_view()),
     path('acceso/',views.show_form,name='registro'),
-    path('accesoCorrecto/',views.post_form,name="correcto")
-
-
-]
+    path('accesoCorrecto/',views.post_form,name="correcto"),
+    path('ropa/<int:ropa_id>',views.detalle,name='vista_detalle'),
+    path('zapatillas/<int:zapatilla_id>',views.detallezapatilla,name='vista_detalle_zapatilla')
+    ]

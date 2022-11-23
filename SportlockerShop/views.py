@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 from .models import Camiseta,Ropa,Sudadera,Zapatilla,Usuario,Compra
 from django .views import View
@@ -56,7 +56,17 @@ def post_form(self,request):
     }
     return render(request,'muestraLogin.html',context)
     contraseña=request.POST["your_password"]
+
     
    # else:
     #    return render(request,'acceso.html')
+def detalle(request,ropa_id):
+    ropa=get_object_or_404(Ropa,pk=ropa_id)
+    context={'ropa':ropa}
+    return render (request,'detalles.html',context)
+
+def detallezapatilla(request,zapatilla_id):
+    zapatilla=get_object_or_404(Ropa,pk=zapatilla_id)
+    context={'zapatilla':zapatilla}
+    return render (request,'detalleszapatillas.html',context)
 

@@ -36,6 +36,7 @@
         {%for c in camisetas %}
         <div class="contenidoRopa">
           {{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de camiseta"><br>
+          <a href="{% url 'vista_detalle' c.id %}">VerDetalles</a>
         </div>
         {% endfor %}
         <h1>Sudaderas</h1>
@@ -45,6 +46,7 @@
 
       <div class="contenidoRopa">
         {{c.nombre}}<br>{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de sudadera con capucha"><br>
+        <a href="{% url 'vista_detalle' c.id %}">VerDetalles</a>
       </div>
       {% endfor %}
       <h2>Sudaderas sin capucha</h2>
@@ -52,6 +54,7 @@
       {% for c in sudaderasSinCapucha%}
       <div class="contenidoRopa">
         {{c.nombre}}<br>{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de sudadera sin capucha"><br>
+        <a href="{% url 'vista_detalle' c.id %}">VerDetalles</a>
 
       </div>
       {% endfor %}
