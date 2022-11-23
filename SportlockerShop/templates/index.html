@@ -41,7 +41,8 @@
         <h2>Articulos más vendidos</h2>
         <ol class="listaTopVenta">
           {% for c in topVentas %}
-            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de camiseta"></li>
+            <a href="{% url 'vista_detalle' c.id %}">
+            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de camiseta"></li></a>
           {% endfor %}
       </ol>
       </div>
