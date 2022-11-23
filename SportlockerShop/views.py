@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import Http404
 from .models import Camiseta,Ropa,Sudadera,Zapatilla,Usuario,Compra
 from django .views import View
 
@@ -47,16 +47,32 @@ class TopVentasListView(View):
 def show_form(request):
   return render(request,'acceso.html')
 
-def post_form(self,request):
-    model=Usuario
-    email1=request.POST["your_email"]
-    queryset=Usuario.objects.filter(email=email1)
-    context={
-        'usuario':self.queryset,    
-    }
-    return render(request,'muestraLogin.html',context)
-    contraseña=request.POST["your_password"]
+def post_form(request):
+    contrasenya=request.POST["your_password"]
+    your_email=request.POST["your_email"]
+    try:
+        usuario=Usuario.objects.get(email=your_email)
+        context={
+            'usuario':usuario,
+        }
+    except:
+        raise Http404('No existe el email')
+    if usuario.contrasenya==contrasenya:
+        return render(request,'muestraLogin.html',context)
+    else:
+        raise Http404("Contraseña incorrecta")
     
-   # else:
-    #    return render(request,'acceso.html')
-
+def post_formRegistrar(request):
+    nombre1=request.POST["name"]
+    email1=request.POST["email"]
+    contrasenya1=request.POST["password"]
+    repetirContrasenya1=request.POST["repeatpassword"]
+    if contrasenya1==repetirContrasenya1:
+        usuario=Usuario(nombre=nombre1,email=email1,contrasenya=contrasenya1)
+        usuario.save()
+        context={
+            'usuario':usuario,
+        }
+        return render(request,'muestraRegistro.html',context)
+    else:
+        raise Http404("La contraseña no coincide")

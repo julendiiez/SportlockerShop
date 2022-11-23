@@ -49,15 +49,15 @@
         </div>
         <div id="derecha">
           <h1>Registrarse</h1>
-          <form action=/SportlockerShop/ method="post">
+          <form action="/SportlockerShop/registroCorrecto/" method="post">
             {% csrf_token %}
             <div class="form_settings">
-              <p><span>Nombre</span><input class="contact" type="text" name="your_name" value="" /></p>
-              <p><span>Email</span><input class="contact" type="email" name="your_email" value="" /></p>
-              <p><span>Contraseña</span><input class="contact" type="password" name="your_password" value="" /></p>
-              <p><span>Repetir contraseña</span><input class="contact" type="password" name="your_repetpassword"
+              <p><span>Nombre</span><input class="contact" type="text" name="name" value="" /></p>
+              <p><span>Email</span><input class="contact" type="email" name="email" value="" /></p>
+              <p><span>Contraseña</span><input class="contact" type="password" name="password" value="" /></p>
+              <p><span>Repetir contraseña</span><input class="contact" type="password" name="repeatpassword"
                   value="" /></p>
-              <p><input type="checkbox" name="aceptoCondiciones" value="si"><span>Acepto las politicas de uso</span></p>
+              <p><span><input type="checkbox" name="aceptoCondiciones" value="si" required="true"></span>Acepto las politicas de uso</p>
               <p><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="Registrarse" />
               </p>
             </div>
