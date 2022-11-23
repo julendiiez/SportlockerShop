@@ -30,13 +30,17 @@
       </div>
     </div>
     <div id="site_content">
-      <div id="content">
+      <div id="content" >
         <!-- insert the page content here -->
         <h1>Camisetas</h1>
         {%for c in camisetas %}
         <div class="contenidoRopa">
           {{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de camiseta"><br>
+<<<<<<< HEAD
           <a href="{% url 'vista_detalle' c.id %}">VerDetalles</a>
+=======
+          
+>>>>>>> de39917fa3fc3d628c7f54ce58d816a33142680c
         </div>
         {% endfor %}
         <h1>Sudaderas</h1>

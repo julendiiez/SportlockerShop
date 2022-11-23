@@ -5,7 +5,7 @@ from django.db import models
 
 class Usuario(models.Model):
     nombre=models.CharField(max_length=50)
-    contraseña=models.CharField(max_length=15)
+    contrasenya=models.CharField(max_length=15)
     email=models.EmailField()
 
 class Ropa(models.Model):

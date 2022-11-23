@@ -11,5 +11,8 @@ urlpatterns = [
     path('acceso/',views.show_form,name='registro'),
     path('accesoCorrecto/',views.post_form,name="correcto"),
     path('ropa/<int:ropa_id>',views.detalle,name='vista_detalle'),
-    path('zapatillas/<int:zapatilla_id>',views.detallezapatilla,name='vista_detalle_zapatilla')
+    path('zapatillas/<int:zapatilla_id>',views.detallezapatilla,name='vista_detalle_zapatilla'),
+    path('acceso/',views.show_form,name='iniciar'),
+    path('accesoCorrecto/',views.post_form,name="correcto"),
+    path('registroCorrecto/',views.post_formRegistrar,name='registro')
     ]
