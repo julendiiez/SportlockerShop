@@ -37,12 +37,14 @@ class ZapatillasListView(View):
         return render(request,'zapatillas.html',context)
 
 class TopVentasListView(View):
-    model=Ropa
-    queryset=Ropa.objects.order_by('nombre').filter(articuloTop=True)
-    template_name='zapatillas.html'
+    queryset=Camiseta.objects.order_by('nombre').filter(articuloTop=True)
+    queryset1=Sudadera.objects.order_by('nombre').filter(articuloTop=True)
+    queryset2=Zapatilla.objects.order_by('nombre').filter(articuloTop=True)
     def get(self,request):
         context={
-            'topVentas':self.queryset,
+            'topVentasCamiseta':self.queryset,
+            'topVentasSudadera':self.queryset1,
+            'topVentasZapatilla':self.queryset2,
         }
         return render(request,'index.html',context)
 
