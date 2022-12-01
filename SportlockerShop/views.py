@@ -4,6 +4,7 @@ from django.shortcuts import render
 from django.http import Http404
 from .models import Camiseta,Ropa,Sudadera,Zapatilla,Usuario,Compra
 from django .views import View
+from django.views.generic.detail import DetailView
 
 
 # Create your views here.
@@ -52,23 +53,12 @@ def show_form(request):
   return render(request,'acceso.html')
 
 
-def post_form(self,request):
-    model=Usuario
-    email1=request.POST["your_email"]
-    queryset=Usuario.objects.filter(email=email1)
-    context={
-        'usuario':self.queryset,    
-    }
-    return render(request,'muestraLogin.html',context)
-    contraseña=request.POST["your_password"]
-
-    
-   # else:
-    #    return render(request,'acceso.html')
-def detalle(request,ropa_id):
-    ropa=get_object_or_404(Ropa,pk=ropa_id)
-    context={'ropa':ropa}
-    return render (request,'detalles.html',context)
+class DetalleDetailView(DetailView):
+    model=Ropa
+    def get(self,request,*args,**kwargs):
+        ropa=get_object_or_404(Ropa,pk=kwargs['pk'])
+        context={'ropa':ropa}
+        return render (request,'detalles.html',context) 
 
 def detallezapatilla(request,zapatilla_id):
     zapatilla=get_object_or_404(Ropa,pk=zapatilla_id)
