@@ -329,4 +329,65 @@ table tr td
   margin:5%;
 }
 
+.formulario__correcto{
+  color:#1ed12d;
+  opacity: 1;
+}
+.formulario__incorrecto{
+  color: #bb2929;
+  opacity: 1;
+  
+}
+.formulario__incorrecto .contact{
+  border:3px solid #bb2929;
+}
+.formulario__correcto .contact{
+  border:3px solid #1ed12d;
+}
 
+
+.formularioContent{
+  position: relative;
+}
+
+.formularioContent i{
+  position:absolute;
+  font-display: right;
+  right: 15%;
+  top:5%
+
+}
+.formulario_error{
+  text-align: center;
+  display: none;
+  margin-bottom: 0;
+  font-size: 12px;
+
+}
+.formulario_error-activo{
+  display: block;
+}
+
+.formulario_mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+  text-align:center;
+}
+
+.formulario_mensaje-exito-activo {
+	display: block;
+}
+.formulario_mensajeError{
+  height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 10px;
+	border-radius: 3px;
+  margin:2%;
+  text-align: center;
+	display: none;
+}
+.formulario_mensajeError-activo{
+  display: block;
+}
