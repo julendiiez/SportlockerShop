@@ -7,6 +7,8 @@ class Usuario(models.Model):
     nombre=models.CharField(max_length=50)
     contrasenya=models.CharField(max_length=15)
     email=models.EmailField()
+    def __str__(self):
+        return f"{self.nombre}"
 
 class Ropa(models.Model):
     nombre=models.CharField(max_length=50)
@@ -15,12 +17,17 @@ class Ropa(models.Model):
     cantidad=models.IntegerField()
     imagen=models.TextField()
     articuloTop=models.BooleanField(default=False)
+    def __str__(self):
+        return f"{self.nombre}"
 
 
 class Compra(models.Model):
     usuario=models.ForeignKey(Usuario,on_delete=models.CASCADE)
     ropa=models.ManyToManyField(Ropa)
     fechaDeCompra=models.DateField()
+
+    def __str__(self):
+        return f"{self.usuario,}"
 
 class Camiseta(Ropa):
     talla=models.CharField(max_length=2)
