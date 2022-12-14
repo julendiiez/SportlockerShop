@@ -37,7 +37,7 @@
         {%for z in zapatillas %}
         <div class="contenidoRopa">
           <a href="{% url 'vista_detalle_zapatilla' z.id %}">
-            {{z.nombre}}<br> Precio:{{z.precio}}€<br><img src={{z.imagen}} alt="Imagen de zapatilla"><br>
+            {{z.nombre}}<br> Precio:{{z.precio}}€<br><img src={{z.imagen1}} alt="Imagen de zapatilla"><br>
           </a>
         </div>
         {% endfor %}

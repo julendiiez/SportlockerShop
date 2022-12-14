@@ -36,7 +36,7 @@
       <div id="content">
           <!-- insert the page content here -->
           <h1>Iniciar Sesion</h1>
-          <form id="iniciar" class=iniciar method="post">
+          <form id="iniciar" class=iniciar method="post" action="/accesoCorrecto/">
             {% csrf_token %}
             <div class="form_settings">
               <div id="formularioContent_email" class="formularioContent" >
@@ -44,7 +44,7 @@
                   <p><span>Email</span><input class="contact" type="email" name="your_email" value="">
                   <i class="iconoFormulario fa fa-times-circle"></i></p>
                 </div>
-                <p class="formulario_error">El correo tiene que contener letras,numeros,puntos y un @</p>
+                <p class="formulario_error">El correo puede contener letras,numeros,puntos y siempre un @</p>
               </div>
               <div id="formularioContent_password" class="formularioContent">
                 <div id="formularioContent-password" class="formularioContent-input">
@@ -61,7 +61,7 @@
             </div>
           </form>
           <h1>Registrarse</h1>
-          <form id="registrar" class=registrar method="post">
+          <form id="registrar" class=registrar method="post" action="/registroCorrecto/">
             {% csrf_token %}
             <div class="form_settings">
               <div id="formularioContent_nombre" class="formularioContent">
@@ -69,14 +69,14 @@
                   <p><span>Nombre</span><input class="contact" type="text" name="name1" value="" />
                   <i class="iconoFormulario fa fa-times-circle"></i></p>
                 </div>
-                <p class="formulario_error">El nombre longitud entre 4-16 y puede contener letras,numeros y guiones.</p>
+                <p class="formulario_error">El nombre longitud entre 3-16 y puede contener letras,numeros y guiones.</p>
               </div>
               <div id="formularioContent_email1" class="formularioContent">
                 <div id="formularioContent-email1" class="formularioContent-input">
                   <p><span>Email</span><input class="contact" type="email" name="email" value="" />
                   <i class="iconoFormulario fa fa-times-circle"></i></p>
                 </div>
-                <p class="formulario_error">El correo tiene que contener letras,numeros,puntos y un @</p>
+                <p class="formulario_error">El correo puede contener letras,numeros,puntos y siempre un @</p>
               </div>
               <div id="formularioContent_password1" class="formularioContent">
                 <div id="formularioContent-password1" class="formularioContent-input">

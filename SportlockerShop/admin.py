@@ -11,9 +11,25 @@ class UsuarioAdmin(admin.ModelAdmin):
 
 @admin.register(Compra)
 class CompraAdmin(admin.ModelAdmin):
-     list_display=('id','fechaDeCompra')
+     list_display=('id','usuario','fechaDeCompra')
+     list_filter=('fechaDeCompra',)
 
-admin.site.register(Zapatilla)
-admin.site.register(Sudadera)
-admin.site.register(Camiseta)
+@admin.register(Zapatilla)
+class ZapatillaAdmin(admin.ModelAdmin):
+    list_display=('id','nombre','precio','cantidad',)
+    search_fields=('nombre',)
+    ordering=('cantidad',)
+@admin.register(Sudadera)
+class SudaderaAdmin(admin.ModelAdmin):
+    list_display=('id','nombre','precio','cantidad',)
+    search_fields=('nombre',)
+    ordering=('cantidad',)
+
+@admin.register(Camiseta)
+class CamisetaAdmin(admin.ModelAdmin):
+    list_display=('id','nombre','precio','cantidad',)
+    search_fields=('nombre',)
+    ordering=('cantidad',)
+
+
 

@@ -72,7 +72,7 @@ def post_form(request):
         usuario=Usuario.objects.get(email=your_email)
         context={
             'usuario':usuario,
-        }
+            }
     except:
         raise Http404('No existe el email')
     if usuario.contrasenya==contrasenya:
@@ -84,16 +84,13 @@ def post_formRegistrar(request):
     nombre1=request.POST["name1"]
     email1=request.POST["email"]
     contrasenya1=request.POST["password"]
-    repetirContrasenya1=request.POST["repeatpassword"]
-    if nombre1!="" and email1!="" and contrasenya1!="":
-        if contrasenya1==repetirContrasenya1:
-            usuario=Usuario(nombre=nombre1,email=email1,contrasenya=contrasenya1)
-            usuario.save()
-            context={
-                'usuario':usuario,
-            }
-            return render(request,'muestraRegistro.html',context)
-        else:
-            raise Http404("La contraseña no coincide")
-    else:
-        alert()
+    try:
+        Usuario.objects.get(email=email1)
+        raise Http404("Ese usuario ya existe, cambia el correo")
+    except:
+        usuario=Usuario(nombre=nombre1,email=email1,contrasenya=contrasenya1)
+        usuario.save()
+        context={
+            'usuario':usuario,
+        }
+        return render(request,'muestraRegistro.html',context)

@@ -15,7 +15,9 @@ class Ropa(models.Model):
     precio=models.IntegerField()
     descripcion=models.TextField()
     cantidad=models.IntegerField()
-    imagen=models.TextField()
+    imagen1=models.TextField()
+    imagen2=models.TextField()
+    imagen3=models.TextField()
     articuloTop=models.BooleanField(default=False)
     def __str__(self):
         return f"{self.nombre}"
@@ -27,7 +29,7 @@ class Compra(models.Model):
     fechaDeCompra=models.DateField()
 
     def __str__(self):
-        return f"{self.usuario,}"
+        return f"Compra de {self.usuario.nombre} {self.fechaDeCompra}"
 
 class Camiseta(Ropa):
     talla=models.CharField(max_length=2)

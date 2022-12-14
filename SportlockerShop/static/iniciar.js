@@ -2,9 +2,10 @@ const formulario=document.getElementById('iniciar');
 const inputs=document.querySelectorAll("#iniciar input");
 const formulario_registrar=document.getElementById('registrar');
 const inputs_registrar=document.querySelectorAll('#registrar input');
+var entraIniciar=false;
 
 const expresiones = {
-	usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, 
+	usuario: /^[a-zA-Z0-9\_\-]{3,16}$/, 
 	password: /^.{4,12}$/, // 4 a 12 digitos.
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 }
@@ -54,7 +55,7 @@ const validarCampo = (expresion,input,campo)=>{
         document.querySelector(`#formularioContent-${campo} i`).classList.remove('fa-times-circle');
         document.querySelector(`#formularioContent_${campo} .formulario_error`).classList.remove('formulario_error-activo');
         if (campo=='email' || campo=='password'){
-                campos[campo]=true;
+            campos[campo]=true;
         }else{
             campos_registrar[campo]=true;
         }
@@ -68,9 +69,9 @@ const validarCampo = (expresion,input,campo)=>{
         document.querySelector(`#formularioContent_${campo} .formulario_error`).classList.add('formulario_error-activo');
         if (campo=='email' || campo=='password'){
             campos[campo]=false;
-    }else{
-        campos_registrar[campo]=false;
-    }
+        }else{
+            campos_registrar[campo]=false;
+        }
 
     }
 }
@@ -105,51 +106,21 @@ inputs_registrar.forEach((input)=>{
 
 })
 formulario.addEventListener('submit',(e)=>{
-    e.preventDefault()
-    if(campos.email && campos.password){
-        formulario.reset();
-        document.getElementById('formulario_ErrorIniciar').classList.remove('formulario_mensajeError-activo');
-
-
-        document.getElementById("formulario_mensaje-exitoIniciar").classList.add("formulario_mensaje-exito-activo");
-        setTimeout(()=>{
-            document.getElementById("formulario_mensaje-exitoIniciar").classList.remove("formulario_mensaje-exito-activo");
-        },5000);
-        document.querySelectorAll('.formulario__correcto').forEach((icono)=>{
-            icono.classList.remove('formulario__correcto');
-
-        });
-
-    }else{
+    if(!(campos.email && campos.password)){
+        e.preventDefault()
         document.getElementById('formulario_ErrorIniciar').classList.add('formulario_mensajeError-activo');
     }
-
 
     
 })
 formulario_registrar.addEventListener('submit',(e)=>{
-    e.preventDefault()
     const politicas=document.getElementById("terminos");
-    if(campos_registrar.nombre && campos_registrar.email1 && campos_registrar.password1 && politicas.checked){
-        formulario_registrar.reset();
-        document.getElementById('formulario_mensajeRegistrar').classList.remove("formulario_mensajeError-activo");
-        document.getElementById("formulario_mensaje-exitoRegistrar").classList.add("formulario_mensaje-exito-activo");
-        setTimeout(()=>{
-        document.getElementById("formulario_mensaje-exitoRegistrar").classList.remove("formulario_mensaje-exito-activo");
-
-        },5000);
-        document.querySelectorAll('.formulario__correcto').forEach((icono)=>{
-            icono.classList.remove('formulario__correcto');
-
-        });
-    }else{
+    if(!(campos_registrar.nombre && campos_registrar.email1 && campos_registrar.password1 && politicas.checked)){
+        e.preventDefault()
         document.getElementById('formulario_mensajeRegistrar').classList.add("formulario_mensajeError-activo");
     }
 });
-    
 
 
 
-
-let carrito=[]
 

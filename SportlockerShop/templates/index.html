@@ -44,17 +44,17 @@
         <ol class="listaTopVenta">
           {% for c in topVentasCamiseta %}
           <a href="{% url 'vista_detalle' c.id %}">
-            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de camiseta"></li>
+            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen1}} alt="Imagen de camiseta"></li>
           </a>
           {% endfor %}
           {% for c in topVentasSudadera %}
           <a href="{% url 'vista_detalle' c.id %}">
-            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de camiseta"></li>
+            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen1}} alt="Imagen de camiseta"></li>
           </a>
           {% endfor %}
           {% for c in topVentasZapatilla %}
           <a href="{% url 'vista_detalle_zapatilla' c.id %}">
-            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen}} alt="Imagen de camiseta"></li>
+            <li>{{c.nombre}}<br> Precio:{{c.precio}}€<br><img src={{c.imagen1}} alt="Imagen de camiseta"></li>
           </a>
           {% endfor %}
 
@@ -65,7 +65,6 @@
       Copyright &copy; SportLockerShop |
     </div>
   </div>
-  <script src="{% static 'javaScript/carritoDeCompra' %"></script>
 </body>
 
 </html>
