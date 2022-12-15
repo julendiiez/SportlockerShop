@@ -5,6 +5,7 @@ from django.http import Http404
 from .models import Camiseta,Ropa,Sudadera,Zapatilla,Usuario,Compra
 from django .views import View
 from django.views.generic.detail import DetailView
+from django.http import JsonResponse
 
 
 # Create your views here.
@@ -55,11 +56,8 @@ def show_form(request):
 
 class DetalleDetailView(DetailView):
     model=Ropa
-    def get(self,request,*args,**kwargs):
-        ropa=get_object_or_404(Ropa,pk=kwargs['pk'])
-        context={'ropa':ropa}
-        return render (request,'detalles.html',context) 
-
+    template_name='detalles.html'
+   
 def detallezapatilla(request,zapatilla_id):
     zapatilla=get_object_or_404(Ropa,pk=zapatilla_id)
     context={'zapatilla':zapatilla}
@@ -94,3 +92,18 @@ def post_formRegistrar(request):
             'usuario':usuario,
         }
         return render(request,'muestraRegistro.html',context)
+
+
+def loadDecriptionData(request,ropa_id):
+    ropa=Ropa.objects.filter(pk=ropa_id)
+    data=[]
+    for obj in ropa:
+        item={
+            'id':obj.id,
+            'nombre':obj.nombre,
+            'descripcion':obj.descripcion,
+            'precio':obj.precio,
+
+            }
+        data.append(item)
+    return JsonResponse({'data':data})

@@ -1,1545 +1,1726 @@
 [
-    {
-      "model": "admin.logentry",
-      "pk": 1,
-      "fields": {
-        "action_time": "2022-11-19T16:36:12.478Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "1",
-        "object_repr": "Camiseta object (1)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 2,
-      "fields": {
-        "action_time": "2022-11-19T16:36:53.508Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "1",
-        "object_repr": "Usuario object (1)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 3,
-      "fields": {
-        "action_time": "2022-11-19T16:37:08.616Z",
-        "user": 1,
-        "content_type": 10,
-        "object_id": "1",
-        "object_repr": "Compra object (1)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 4,
-      "fields": {
-        "action_time": "2022-11-19T16:38:48.494Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "2",
-        "object_repr": "Sudadera object (2)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 5,
-      "fields": {
-        "action_time": "2022-11-19T16:40:06.289Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "3",
-        "object_repr": "Zapatilla object (3)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 6,
-      "fields": {
-        "action_time": "2022-11-20T14:49:19.882Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "1",
-        "object_repr": "Camiseta object (1)",
-        "action_flag": 2,
-        "change_message": "[]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 7,
-      "fields": {
-        "action_time": "2022-11-20T16:40:38.998Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "4",
-        "object_repr": "Camiseta object (4)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 8,
-      "fields": {
-        "action_time": "2022-11-20T16:42:58.018Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "5",
-        "object_repr": "Camiseta object (5)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 9,
-      "fields": {
-        "action_time": "2022-11-20T16:44:48.645Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "5",
-        "object_repr": "Camiseta object (5)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 10,
-      "fields": {
-        "action_time": "2022-11-20T17:41:28.440Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "6",
-        "object_repr": "Sudadera object (6)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 11,
-      "fields": {
-        "action_time": "2022-11-21T08:21:52.689Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "7",
-        "object_repr": "Camiseta object (7)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 12,
-      "fields": {
-        "action_time": "2022-11-21T08:24:02.689Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "8",
-        "object_repr": "Camiseta object (8)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 13,
-      "fields": {
-        "action_time": "2022-11-21T08:25:18.881Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "9",
-        "object_repr": "Sudadera object (9)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 14,
-      "fields": {
-        "action_time": "2022-11-21T08:26:32.995Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "10",
-        "object_repr": "Sudadera object (10)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 15,
-      "fields": {
-        "action_time": "2022-11-21T08:27:44.018Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "11",
-        "object_repr": "Sudadera object (11)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 16,
-      "fields": {
-        "action_time": "2022-11-21T08:29:08.208Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "12",
-        "object_repr": "Sudadera object (12)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 17,
-      "fields": {
-        "action_time": "2022-11-21T08:30:31.547Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "13",
-        "object_repr": "Zapatilla object (13)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 18,
-      "fields": {
-        "action_time": "2022-11-21T08:31:27.035Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "14",
-        "object_repr": "Zapatilla object (14)",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 19,
-      "fields": {
-        "action_time": "2022-11-21T08:32:58.545Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "9",
-        "object_repr": "Sudadera object (9)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 20,
-      "fields": {
-        "action_time": "2022-11-21T08:34:48.130Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "9",
-        "object_repr": "Sudadera object (9)",
-        "action_flag": 2,
-        "change_message": "[]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 21,
-      "fields": {
-        "action_time": "2022-11-23T19:46:45.064Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "3",
-        "object_repr": "Usuario object (3)",
-        "action_flag": 3,
-        "change_message": ""
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 22,
-      "fields": {
-        "action_time": "2022-11-23T21:03:58.624Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "4",
-        "object_repr": "Usuario object (4)",
-        "action_flag": 3,
-        "change_message": ""
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 23,
-      "fields": {
-        "action_time": "2022-12-10T13:00:28.438Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "6",
-        "object_repr": "Usuario object (6)",
-        "action_flag": 3,
-        "change_message": ""
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 24,
-      "fields": {
-        "action_time": "2022-12-10T13:00:31.622Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "5",
-        "object_repr": "Usuario object (5)",
-        "action_flag": 3,
-        "change_message": ""
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 25,
-      "fields": {
-        "action_time": "2022-12-13T14:57:06.906Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "2",
-        "object_repr": "Aitor",
-        "action_flag": 3,
-        "change_message": ""
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 26,
-      "fields": {
-        "action_time": "2022-12-13T14:58:37.442Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "3",
-        "object_repr": "Aitor",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 27,
-      "fields": {
-        "action_time": "2022-12-13T15:00:40.737Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "3",
-        "object_repr": "Aitor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 28,
-      "fields": {
-        "action_time": "2022-12-13T15:01:56.101Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "3",
-        "object_repr": "Aitor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 29,
-      "fields": {
-        "action_time": "2022-12-13T15:10:07.423Z",
-        "user": 1,
-        "content_type": 4,
-        "object_id": "3",
-        "object_repr": "Aitor",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 30,
-      "fields": {
-        "action_time": "2022-12-13T17:22:12.549Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "7",
-        "object_repr": "Ane",
-        "action_flag": 3,
-        "change_message": ""
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 31,
-      "fields": {
-        "action_time": "2022-12-13T17:22:12.557Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "8",
-        "object_repr": "Ane",
-        "action_flag": 3,
-        "change_message": ""
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 32,
-      "fields": {
-        "action_time": "2022-12-13T17:22:12.565Z",
-        "user": 1,
-        "content_type": 8,
-        "object_id": "9",
-        "object_repr": "Asier",
-        "action_flag": 3,
-        "change_message": ""
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 33,
-      "fields": {
-        "action_time": "2022-12-13T19:43:22.013Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "8",
-        "object_repr": "Chicago Bulls 23",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 34,
-      "fields": {
-        "action_time": "2022-12-13T19:45:53.711Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "7",
-        "object_repr": "Brasil 1� Equipacion 2022",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 35,
-      "fields": {
-        "action_time": "2022-12-13T19:47:42.832Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "5",
-        "object_repr": "Adidas 3 bandas",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 36,
-      "fields": {
-        "action_time": "2022-12-13T19:51:52.935Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "4",
-        "object_repr": "Real Sociedad 2� Equipacion 2022/2023",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 37,
-      "fields": {
-        "action_time": "2022-12-13T19:55:42.123Z",
-        "user": 1,
-        "content_type": 11,
-        "object_id": "1",
-        "object_repr": "Nike dri-fit",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 38,
-      "fields": {
-        "action_time": "2022-12-13T20:02:13.431Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "12",
-        "object_repr": "Adidas 3 bandas",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 39,
-      "fields": {
-        "action_time": "2022-12-13T21:29:34.385Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "6",
-        "object_repr": "Reebok training essentials",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 40,
-      "fields": {
-        "action_time": "2022-12-13T21:31:15.202Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "2",
-        "object_repr": "Nike swoosh",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 41,
-      "fields": {
-        "action_time": "2022-12-13T21:32:50.429Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "11",
-        "object_repr": "Bullpadel Rodicol",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 42,
-      "fields": {
-        "action_time": "2022-12-13T21:46:34.827Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "10",
-        "object_repr": "Joma Crew IV",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Nombre\", \"Descripcion\", \"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 43,
-      "fields": {
-        "action_time": "2022-12-13T21:48:01.152Z",
-        "user": 1,
-        "content_type": 12,
-        "object_id": "9",
-        "object_repr": "Adidas Big Logo",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 44,
-      "fields": {
-        "action_time": "2022-12-13T21:52:56.411Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "13",
-        "object_repr": "Nike Air Zoom Pegasus",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 45,
-      "fields": {
-        "action_time": "2022-12-13T21:59:45.589Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "3",
-        "object_repr": "Nike waffle debut",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Nombre\", \"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "admin.logentry",
-      "pk": 46,
-      "fields": {
-        "action_time": "2022-12-13T22:03:16.876Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "14",
-        "object_repr": "Asics Gel Pulse 13",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 1,
-      "fields": {
-        "name": "Can add log entry",
-        "content_type": 1,
-        "codename": "add_logentry"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 2,
-      "fields": {
-        "name": "Can change log entry",
-        "content_type": 1,
-        "codename": "change_logentry"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 3,
-      "fields": {
-        "name": "Can delete log entry",
-        "content_type": 1,
-        "codename": "delete_logentry"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 4,
-      "fields": {
-        "name": "Can view log entry",
-        "content_type": 1,
-        "codename": "view_logentry"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 5,
-      "fields": {
-        "name": "Can add permission",
-        "content_type": 2,
-        "codename": "add_permission"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 6,
-      "fields": {
-        "name": "Can change permission",
-        "content_type": 2,
-        "codename": "change_permission"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 7,
-      "fields": {
-        "name": "Can delete permission",
-        "content_type": 2,
-        "codename": "delete_permission"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 8,
-      "fields": {
-        "name": "Can view permission",
-        "content_type": 2,
-        "codename": "view_permission"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 9,
-      "fields": {
-        "name": "Can add group",
-        "content_type": 3,
-        "codename": "add_group"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 10,
-      "fields": {
-        "name": "Can change group",
-        "content_type": 3,
-        "codename": "change_group"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 11,
-      "fields": {
-        "name": "Can delete group",
-        "content_type": 3,
-        "codename": "delete_group"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 12,
-      "fields": {
-        "name": "Can view group",
-        "content_type": 3,
-        "codename": "view_group"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 13,
-      "fields": {
-        "name": "Can add user",
-        "content_type": 4,
-        "codename": "add_user"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 14,
-      "fields": {
-        "name": "Can change user",
-        "content_type": 4,
-        "codename": "change_user"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 15,
-      "fields": {
-        "name": "Can delete user",
-        "content_type": 4,
-        "codename": "delete_user"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 16,
-      "fields": {
-        "name": "Can view user",
-        "content_type": 4,
-        "codename": "view_user"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 17,
-      "fields": {
-        "name": "Can add content type",
-        "content_type": 5,
-        "codename": "add_contenttype"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 18,
-      "fields": {
-        "name": "Can change content type",
-        "content_type": 5,
-        "codename": "change_contenttype"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 19,
-      "fields": {
-        "name": "Can delete content type",
-        "content_type": 5,
-        "codename": "delete_contenttype"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 20,
-      "fields": {
-        "name": "Can view content type",
-        "content_type": 5,
-        "codename": "view_contenttype"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 21,
-      "fields": {
-        "name": "Can add session",
-        "content_type": 6,
-        "codename": "add_session"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 22,
-      "fields": {
-        "name": "Can change session",
-        "content_type": 6,
-        "codename": "change_session"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 23,
-      "fields": {
-        "name": "Can delete session",
-        "content_type": 6,
-        "codename": "delete_session"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 24,
-      "fields": {
-        "name": "Can view session",
-        "content_type": 6,
-        "codename": "view_session"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 25,
-      "fields": {
-        "name": "Can add ropa",
-        "content_type": 7,
-        "codename": "add_ropa"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 26,
-      "fields": {
-        "name": "Can change ropa",
-        "content_type": 7,
-        "codename": "change_ropa"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 27,
-      "fields": {
-        "name": "Can delete ropa",
-        "content_type": 7,
-        "codename": "delete_ropa"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 28,
-      "fields": {
-        "name": "Can view ropa",
-        "content_type": 7,
-        "codename": "view_ropa"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 29,
-      "fields": {
-        "name": "Can add usuario",
-        "content_type": 8,
-        "codename": "add_usuario"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 30,
-      "fields": {
-        "name": "Can change usuario",
-        "content_type": 8,
-        "codename": "change_usuario"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 31,
-      "fields": {
-        "name": "Can delete usuario",
-        "content_type": 8,
-        "codename": "delete_usuario"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 32,
-      "fields": {
-        "name": "Can view usuario",
-        "content_type": 8,
-        "codename": "view_usuario"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 33,
-      "fields": {
-        "name": "Can add zapatilla",
-        "content_type": 9,
-        "codename": "add_zapatilla"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 34,
-      "fields": {
-        "name": "Can change zapatilla",
-        "content_type": 9,
-        "codename": "change_zapatilla"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 35,
-      "fields": {
-        "name": "Can delete zapatilla",
-        "content_type": 9,
-        "codename": "delete_zapatilla"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 36,
-      "fields": {
-        "name": "Can view zapatilla",
-        "content_type": 9,
-        "codename": "view_zapatilla"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 37,
-      "fields": {
-        "name": "Can add compra",
-        "content_type": 10,
-        "codename": "add_compra"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 38,
-      "fields": {
-        "name": "Can change compra",
-        "content_type": 10,
-        "codename": "change_compra"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 39,
-      "fields": {
-        "name": "Can delete compra",
-        "content_type": 10,
-        "codename": "delete_compra"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 40,
-      "fields": {
-        "name": "Can view compra",
-        "content_type": 10,
-        "codename": "view_compra"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 41,
-      "fields": {
-        "name": "Can add camiseta",
-        "content_type": 11,
-        "codename": "add_camiseta"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 42,
-      "fields": {
-        "name": "Can change camiseta",
-        "content_type": 11,
-        "codename": "change_camiseta"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 43,
-      "fields": {
-        "name": "Can delete camiseta",
-        "content_type": 11,
-        "codename": "delete_camiseta"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 44,
-      "fields": {
-        "name": "Can view camiseta",
-        "content_type": 11,
-        "codename": "view_camiseta"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 45,
-      "fields": {
-        "name": "Can add sudadera",
-        "content_type": 12,
-        "codename": "add_sudadera"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 46,
-      "fields": {
-        "name": "Can change sudadera",
-        "content_type": 12,
-        "codename": "change_sudadera"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 47,
-      "fields": {
-        "name": "Can delete sudadera",
-        "content_type": 12,
-        "codename": "delete_sudadera"
-      }
-    },
-    {
-      "model": "auth.permission",
-      "pk": 48,
-      "fields": {
-        "name": "Can view sudadera",
-        "content_type": 12,
-        "codename": "view_sudadera"
-      }
-    },
-    {
-      "model": "auth.user",
-      "pk": 1,
-      "fields": {
-        "password": "pbkdf2_sha256$390000$vA7zTU1kalZKe5r9y8Aor3$lKrbiLU4IspBjfQcVYdH20ST0uw9WmWci6x4F+ah47I=",
-        "last_login": "2022-12-13T17:21:45.167Z",
-        "is_superuser": true,
-        "username": "asier",
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2022-11-19T16:05:38.593Z",
-        "groups": [],
-        "user_permissions": []
-      }
-    },
-    {
-      "model": "auth.user",
-      "pk": 3,
-      "fields": {
-        "password": "pbkdf2_sha256$390000$PqLw8H5RBtQjhq1Dv8a5pU$JHx0Y7rvXB5snvigjawMd4GHfAHRilw6d4EV2twziKw=",
-        "last_login": "2022-12-13T15:10:51.052Z",
-        "is_superuser": false,
-        "username": "Aitor",
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2022-12-13T14:58:37Z",
-        "groups": [],
-        "user_permissions": [
-          41,
-          42,
-          43,
-          44,
-          40,
-          25,
-          26,
-          27,
-          28,
-          45,
-          46,
-          47,
-          48,
-          32,
-          33,
-          34,
-          35,
-          36
-        ]
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 1,
-      "fields": {
-        "app_label": "admin",
-        "model": "logentry"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 2,
-      "fields": {
-        "app_label": "auth",
-        "model": "permission"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 3,
-      "fields": {
-        "app_label": "auth",
-        "model": "group"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 4,
-      "fields": {
-        "app_label": "auth",
-        "model": "user"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 5,
-      "fields": {
-        "app_label": "contenttypes",
-        "model": "contenttype"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 6,
-      "fields": {
-        "app_label": "sessions",
-        "model": "session"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 7,
-      "fields": {
-        "app_label": "SportlockerShop",
-        "model": "ropa"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 8,
-      "fields": {
-        "app_label": "SportlockerShop",
-        "model": "usuario"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 9,
-      "fields": {
-        "app_label": "SportlockerShop",
-        "model": "zapatilla"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 10,
-      "fields": {
-        "app_label": "SportlockerShop",
-        "model": "compra"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 11,
-      "fields": {
-        "app_label": "SportlockerShop",
-        "model": "camiseta"
-      }
-    },
-    {
-      "model": "contenttypes.contenttype",
-      "pk": 12,
-      "fields": {
-        "app_label": "SportlockerShop",
-        "model": "sudadera"
-      }
-    },
-    {
-      "model": "sessions.session",
-      "pk": "516ab6okcro6d3x74tjuctlzfmex3x0m",
-      "fields": {
-        "session_data": ".eJxVjEEOwiAQRe_C2hCmIENduu8ZGpiZStVAUtqV8e7apAvd_vfef6kxbmsetybLOLO6KFCn3y1FekjZAd9juVVNtazLnPSu6IM2PVSW5_Vw_w5ybPlbB2RCJIZA4GTqJssm9JDOKA4MgrWSkkHuyRtwwXbOQwo-Om8CA1r1_gDWaDbg:1ox2xK:IFxekhzBSGqe81jh46kGXW_yLL1wj4jUS7qvJH9Iwz8",
-        "expire_date": "2022-12-05T09:19:10.879Z"
-      }
-    },
-    {
-      "model": "sessions.session",
-      "pk": "5jp5txffuzc9iqd5jxh8mmfjc4slbsby",
-      "fields": {
-        "session_data": ".eJxVjEEOwiAQRe_C2hCmIENduu8ZGpiZStVAUtqV8e7apAvd_vfef6kxbmsetybLOLO6KFCn3y1FekjZAd9juVVNtazLnPSu6IM2PVSW5_Vw_w5ybPlbB2RCJIZA4GTqJssm9JDOKA4MgrWSkkHuyRtwwXbOQwo-Om8CA1r1_gDWaDbg:1p58yP:14qljJA1DlmRdq7rxrFUhKkcsq3J1F5F0Uq0A1sMxUQ",
-        "expire_date": "2022-12-27T17:21:45.177Z"
-      }
-    },
-    {
-      "model": "sessions.session",
-      "pk": "meggxs83mkpwc4adk96icn5lpddnjylz",
-      "fields": {
-        "session_data": ".eJxVjEEOwiAQRe_C2hCmIENduu8ZGpiZStVAUtqV8e7apAvd_vfef6kxbmsetybLOLO6KFCn3y1FekjZAd9juVVNtazLnPSu6IM2PVSW5_Vw_w5ybPlbB2RCJIZA4GTqJssm9JDOKA4MgrWSkkHuyRtwwXbOQwo-Om8CA1r1_gDWaDbg:1ox21W:GllhmjQ8Do5byIgoMfA1tqi2ctXILI7o9II0343LjZk",
-        "expire_date": "2022-12-05T08:19:26.538Z"
-      }
-    },
-    {
-      "model": "sessions.session",
-      "pk": "v2uvl1t2hx1rbidc02jy2isem4fxov4o",
-      "fields": {
-        "session_data": ".eJxVjEEOwiAQRe_C2hCmIENduu8ZGpiZStVAUtqV8e7apAvd_vfef6kxbmsetybLOLO6KFCn3y1FekjZAd9juVVNtazLnPSu6IM2PVSW5_Vw_w5ybPlbB2RCJIZA4GTqJssm9JDOKA4MgrWSkkHuyRtwwXbOQwo-Om8CA1r1_gDWaDbg:1owQYH:1pTlJMfjG-QuWQYjCtKhUqlV-ei8UqfxvoGuD7teQ3A",
-        "expire_date": "2022-12-03T16:18:45.589Z"
-      }
-    },
-    {
-      "model": "SportlockerShop.usuario",
-      "pk": 1,
-      "fields": {
-        "nombre": "Asier",
-        "contrasenya": "Irun",
-        "email": "asierolaizola@gmail.com"
-      }
-    },
-    {
-      "model": "SportlockerShop.usuario",
-      "pk": 2,
-      "fields": {
-        "nombre": "Julen",
-        "contrasenya": "Tolosa",
-        "email": "julendiez@opendeusto.es"
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 1,
-      "fields": {
-        "nombre": "Nike dri-fit",
-        "precio": 30,
-        "descripcion": "Camiseta Nike blanca de manga corta.",
-        "cantidad": 5,
-        "imagen1": "https://www.forumsport.com/medias/medias-1000654282-00-P-X-20201217170007.jpg?context=bWFzdGVyfGltYWdlc3w3OTk5NXxpbWFnZS9qcGVnfGltYWdlcy9oMGMvaGJjLzk5MDIxOTMwODIzOTguanBnfGFkYWJkODczNTkxMTFlODYyNDYyYTgyMzlmMGE2NTFiZWMxY2ZiZDFmNTViYjcyYWI0Nzc2ZmI1MGUwN2FmYjI",
-        "imagen2": "https://www.forumsport.com/medias/medias-1000654282-01-S-X-20201217170007.jpg?context=bWFzdGVyfGltYWdlc3w5NzI1OHxpbWFnZS9qcGVnfGltYWdlcy9oOGIvaDNlLzk5MDIxOTMyNzkwMDYuanBnfDFlMGMwM2E0YzM0ZjhhYTM1OGU3OGQwNzBmMjUzZGRmMmY3YzZkMWUyOTU3NmVkMzhkMmNiZTgzNTk3Njc5ZGY",
-        "imagen3": "https://www.forumsport.com/medias/medias-1000654282-02-X-X-20201217170007.jpg?context=bWFzdGVyfGltYWdlc3w5MTE0M3xpbWFnZS9qcGVnfGltYWdlcy9oNWIvaGIxLzk5MDIxOTM0NzU2MTQuanBnfDljMzhkNGEzMWM1MmMwYjhiNWY3OTc2MjE1YTc3NjZkNjYwMjdkYjg2M2EzOWFmYmQyZTY0ODZkMGNlYzI4ZDk",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 2,
-      "fields": {
-        "nombre": "Nike swoosh",
-        "precio": 50,
-        "descripcion": "Sudadera negra Nike con capucha, colaboraci�n con swoosh",
-        "cantidad": 5,
-        "imagen1": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/292a532c-8ca9-45dc-ba48-7b6a21c95ac2/air-sudadera-con-capucha-de-tejido-fleece-cepillado-en-la-parte-trasera-VwcZrt.png",
-        "imagen2": "https://cdn.laredoute.com/products/b/c/f/bcfc0f97353f8807dceb6851085bf6a5.jpg?imgopt=twic&twic=v1/cover=1100x1100",
-        "imagen3": "https://cdn.laredoute.com/products/3/7/c/37c195ee65e4ab19787847eabc92d25d.jpg?imgopt=twic&twic=v1/cover=1100x1100",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 3,
-      "fields": {
-        "nombre": "Nike waffle debut",
-        "precio": 50,
-        "descripcion": "Zapatillas Nike color negro y blanco de cuero.",
-        "cantidad": 5,
-        "imagen1": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/26dd42ea-4c98-455e-ab53-e74db2fb1de2/waffle-debut-zapatillas-gV9P67.png",
-        "imagen2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3cfea17f-b63f-42c8-a3c5-d1d84afb9527/waffle-debut-zapatillas-gV9P67.png",
-        "imagen3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1b2c34a3-67c2-46ae-8bc6-64e12ee702eb/waffle-debut-zapatillas-gV9P67.png",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 4,
-      "fields": {
-        "nombre": "Real Sociedad 2� Equipacion 2022/2023",
-        "precio": 75,
-        "descripcion": "Camiseta de la real sociedad temporada 2022/2023. Marca Macron con el parche de la liga.",
-        "cantidad": 5,
-        "imagen1": "https://www.futbolemotion.com/imagesarticulos/176155/grandes/camiseta-macron-real-sociedad-de-futbol-segunda-equipacion-2022-2023-nino-0.jpg",
-        "imagen2": "https://www.futbolemotion.com/imagesarticulos/176155/750/camiseta-macron-real-sociedad-de-futbol-segunda-equipacion-2022-2023-nino-1.webp",
-        "imagen3": "https://www.futbolemotion.com/imagesarticulos/176155/grandes/camiseta-macron-real-sociedad-de-futbol-segunda-equipacion-2022-2023-nino-2.jpg",
-        "articuloTop": true
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 5,
-      "fields": {
-        "nombre": "Adidas 3 bandas",
-        "precio": 30,
-        "descripcion": "Camiseta de Adidas color blanco y negro.",
-        "cantidad": 5,
-        "imagen1": "https://assets.adidas.com/images/w_600,f_auto,q_auto/bac60bc110584f7aafb4ac4500f4c67f_9366/Camiseta_adidas_Designed_To_Move_Big_Logo_Blanco_GN1479_01_laydown.jpg",
-        "imagen2": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/edabad9616534a8d8c56ac4500f5187c_9366/Camiseta_adidas_Designed_To_Move_Big_Logo_Blanco_GN1479_02_laydown_hover.jpg",
-        "imagen3": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b31ad95bed214126a3f6ac4500f53984_9366/Camiseta_adidas_Designed_To_Move_Big_Logo_Blanco_GN1479_43_detail.jpg",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 6,
-      "fields": {
-        "nombre": "Reebok training essentials",
-        "precio": 50,
-        "descripcion": "La sudadera sin capucha Reebok Training Essentials Vector de color negro con para hombre es ideal para el d�a a d�a gracias a su comodidad y ligereza.",
-        "cantidad": 5,
-        "imagen1": "https://img01.ztat.net/article/spp-media-p1/210615a7d8064d9ab5d9e46ef6825c04/d52239f180eb4e6f900574083ff6163a.jpg?imwidth=1800",
-        "imagen2": "https://img01.ztat.net/article/spp-media-p1/e0d9cf9f5b944f469293877a7792b1f6/1b5248b093f44fc0b0f2c1e4fa6d1ff6.jpg?imwidth=1800",
-        "imagen3": "https://img01.ztat.net/article/spp-media-p1/cd279851516841efbebe9481728d9949/2dd09457da9a45f68d64dbdb5c94ab17.jpg?imwidth=1800",
-        "articuloTop": true
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 7,
-      "fields": {
-        "nombre": "Brasil 1� Equipacion 2022",
-        "precio": 75,
-        "descripcion": "Camiseta del mundial de Brasil color amarillo.",
-        "cantidad": 3,
-        "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/19ac022b-b815-40ac-8bae-2aafe710dded/primera-equipacion-stadium-brasil-2022-23-camiseta-de-futbol-dri-fit-msrwq9.png",
-        "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/925c24b5-85d8-436a-be8c-3769f2d6bd7c/primera-equipacion-stadium-brasil-2022-23-camiseta-de-futbol-dri-fit-msrwq9.png",
-        "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/a14412c3-cce8-4e34-89b5-c4ecaeb131ad/primera-equipacion-stadium-brasil-2022-23-camiseta-de-futbol-dri-fit-msrwq9.png",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 8,
-      "fields": {
-        "nombre": "Chicago Bulls 23",
-        "precio": 150,
-        "descripcion": "Camiseta Chicago Bull Michael Jordan 1995.",
-        "cantidad": 2,
-        "imagen1": "https://www.infobae.com/new-resizer/O3b1EI7oUYbxkUVFme3neOn8hy8=/992x992/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/QIFPZAOXKZC5PDTFIJPWQS26XQ.jpg",
-        "imagen2": "https://cdn1.fuikaomar.es/25825-home_default/camiseta-mitchell-and-ness-chicago-bulls-authentic-michael-jordan-1996-97.jpg",
-        "imagen3": "https://www.replicascamiseta.com/images/Camisetas%20NBA%20Retro/Chicago%20Bulls/Camiseta_Chicago_Bulls_Michael_Jordan_NO_23_Mitchell_&_Ness_1996-97_Rojo_2.jpg",
-        "articuloTop": true
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 9,
-      "fields": {
-        "nombre": "Adidas Big Logo",
-        "precio": 45,
-        "descripcion": "Sudadera con capucha Adidas Big Logo color azul.",
-        "cantidad": 10,
-        "imagen1": "https://padel.tienda/wp-content/uploads/2017/05/Sudadera-Adidas-Big-Logo-Azul_2021.jpg",
-        "imagen2": "https://padel.tienda/wp-content/uploads/2017/05/Sudadera-Adidas-Big-Logo-Azul-21.jpg",
-        "imagen3": "https://padel.tienda/wp-content/uploads/2017/05/Sudadera-Adidas-Big-Logo-Azul.jpg",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 10,
-      "fields": {
-        "nombre": "Joma Crew IV",
-        "precio": 35,
-        "descripcion": "Sudadera con capucha Joma Crew IV negro antracita.",
-        "cantidad": 8,
-        "imagen1": "https://www.joma-sport.com/dw/image/v2/BFRV_PRD/on/demandware.static/-/Sites-joma-masterCatalog/default/dw7e3d6fde/images/medium/101544.110_1.jpg?sw=460&sh=475&sm=fit",
-        "imagen2": "https://www.joma-sport.com/dw/image/v2/BFRV_PRD/on/demandware.static/-/Sites-joma-masterCatalog/default/dw031df0ac/images/medium/101544.110_3.jpg?sw=460&sh=475&sm=fit",
-        "imagen3": "https://www.joma-sport.com/dw/image/v2/BFRV_PRD/on/demandware.static/-/Sites-joma-masterCatalog/default/dw0feaf932/images/medium/101544.110_2.jpg?sw=460&sh=475&sm=fit",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 11,
-      "fields": {
-        "nombre": "Bullpadel Rodicol",
-        "precio": 45,
-        "descripcion": "Sudadera de p�del muy moderna, llamativa y original que seguro te va a encantar.",
-        "cantidad": 7,
-        "imagen1": "https://padel.tienda/wp-content/uploads/2022/01/sudadera-bullpadel-rodicol-azul-marino.jpg",
-        "imagen2": "https://www.bullpadel.com/7861-large_default/sudadera-bullpadel-rodicol-azul-marino.jpg",
-        "imagen3": "https://www.bullpadel.com/7858-large_default/sudadera-bullpadel-rodicol-azul-marino.jpg",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 12,
-      "fields": {
-        "nombre": "Adidas 3 bandas",
-        "precio": 50,
-        "descripcion": "Sudadera Adidas negra con 3 bandas muy comoda.",
-        "cantidad": 5,
-        "imagen1": "https://img01.ztat.net/article/spp-media-p1/815baca76aae42228b9b6d0ab5262098/790df50206f14003ace610bb42d48020.jpg",
-        "imagen2": "https://img01.ztat.net/article/spp-media-p1/2fe5efe862974524a01f5cc656bf28c2/f3605665c2a8498287f0706c3d28f4e9.jpg",
-        "imagen3": "https://img01.ztat.net/article/spp-media-p1/fcd2d17534d4420682613880853cbd59/deae8ba3dab74fca99f652fc587d972a.jpg",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 13,
-      "fields": {
-        "nombre": "Nike Air Zoom Pegasus",
-        "precio": 82,
-        "descripcion": "Para correr por asfalto m�s de 4 veces por semana no menos de 60 minutos. Es hora de volar con la nuevas zapatillas de hombre Nike Air Zoom Pegasus 39 color azul.",
-        "cantidad": 2,
-        "imagen1": "https://www.forumsport.com/medias/medias-1000797659-00-P-X-20220401151424.jpg?context=bWFzdGVyfGltYWdlc3w5ODU4MHxpbWFnZS9qcGVnfGltYWdlcy9oMGIvaGMwLzEwNjY2MDgwMjA2ODc4LmpwZ3wyYjdiMDNkMjgwNzQ4NzJiODNiZDYzZDJlNDY4MTZmNTc3YTkyODMxMzU0MzczYWQ0MzUyMDc2ZWY0M2Q0NTdh",
-        "imagen2": "https://www.forumsport.com/medias/medias-1000797659-01-S-X-20220401151424.jpg?context=bWFzdGVyfGltYWdlc3w5NDg0N3xpbWFnZS9qcGVnfGltYWdlcy9oZDIvaGZkLzEwNjY2MDgwNDAzNDg2LmpwZ3xiZmI3NTc5NTc2YmQzOWIwNDUxYTMzNWI5ZDFjZjE3ZGI4N2Q5NjhkNThiN2QzZDc2NTQ0MjBiYjlkMWU4Mjlj",
-        "imagen3": "https://www.forumsport.com/medias/medias-1000797659-02-X-X-20220401151424.jpg?context=bWFzdGVyfGltYWdlc3w5ODI0N3xpbWFnZS9qcGVnfGltYWdlcy9oZDgvaDRjLzEwNjY2MDc3NjUwOTc0LmpwZ3w1YTE4ODQ5YWQzNGQ4OTI3MWRhOTY1OTQ3OGRkNzNmZWY3ZWI2ZjM5M2M0MzIwYTc3MDRjMzYxOWVkMzgyZTA2",
-        "articuloTop": true
-      }
-    },
-    {
-      "model": "SportlockerShop.ropa",
-      "pk": 14,
-      "fields": {
-        "nombre": "Asics Gel Pulse 13",
-        "precio": 100,
-        "descripcion": "Para correr por asfalto 2 a 4 veces por semana aproximadamente hasta 45 minutos. Mant�n tu mente centrada en el entrenamiento y mejora tus tiempos con las zapatillas de running mujer Asics Gel-Pulse� 13.",
-        "cantidad": 80,
-        "imagen1": "https://www.forumsport.com/medias/medias-1000794316-00-P-X-20220112124128.jpg?context=bWFzdGVyfGltYWdlc3w5Njc3OXxpbWFnZS9qcGVnfGltYWdlcy9oN2UvaDBkLzEwNTQwMzA2MzMzNzI2LmpwZ3w5ODM3MzZkNjA4Mjk0ZDNkYjc2N2U4MDRjYmQ1MjhhZjlkOTg2ZDFkOTdmMjA1NTA2ZjU1ZWMxMGJiMDEwZjdm",
-        "imagen2": "https://www.forumsport.com/medias/medias-1000794316-01-X-X-20220112124128.jpg?context=bWFzdGVyfGltYWdlc3w5OTYwM3xpbWFnZS9qcGVnfGltYWdlcy9oOWYvaDU5LzEwNTQwMzE1MTE1NTUwLmpwZ3w4OGNhNzQ1NDNmZGNhNzViMmZhMmVhZjFkOGU0OTU0MTJiMjkzNzhmOWI2NGZjNjBkMTIzZTQwMGE1YzBhM2Fm",
-        "imagen3": "https://www.forumsport.com/medias/medias-1000794316-04-S-X-20220112124128.jpg?context=bWFzdGVyfGltYWdlc3w5NzUxOXxpbWFnZS9qcGVnfGltYWdlcy9oMGIvaGRiLzEwNTQwMzE1NzA1Mzc0LmpwZ3w2MDNhYzRkMTRlZDliOTcwYTUzZjg2ZTY0MTRmYjlkNDQ0YThiYjQ1NjZjODUwNGIxMGE4NTJkZTdiMDgyMDA1",
-        "articuloTop": false
-      }
-    },
-    {
-      "model": "SportlockerShop.compra",
-      "pk": 1,
-      "fields": {
-        "usuario": 1,
-        "fechaDeCompra": "2022-11-19",
-        "ropa": [
-          1
-        ]
-      }
-    },
-    {
-      "model": "SportlockerShop.camiseta",
-      "pk": 1,
-      "fields": {
-        "talla": "L"
-      }
-    },
-    {
-      "model": "SportlockerShop.camiseta",
-      "pk": 4,
-      "fields": {
-        "talla": "L"
-      }
-    },
-    {
-      "model": "SportlockerShop.camiseta",
-      "pk": 5,
-      "fields": {
-        "talla": "M"
-      }
-    },
-    {
-      "model": "SportlockerShop.camiseta",
-      "pk": 7,
-      "fields": {
-        "talla": "S"
-      }
-    },
-    {
-      "model": "SportlockerShop.camiseta",
-      "pk": 8,
-      "fields": {
-        "talla": "XL"
-      }
-    },
-    {
-      "model": "SportlockerShop.zapatilla",
-      "pk": 3,
-      "fields": {
-        "talla": 45
-      }
-    },
-    {
-      "model": "SportlockerShop.zapatilla",
-      "pk": 13,
-      "fields": {
-        "talla": 44
-      }
-    },
-    {
-      "model": "SportlockerShop.zapatilla",
-      "pk": 14,
-      "fields": {
-        "talla": 38
-      }
-    },
-    {
-      "model": "SportlockerShop.sudadera",
-      "pk": 2,
-      "fields": {
-        "conCapucha": true,
-        "talla": "L"
-      }
-    },
-    {
-      "model": "SportlockerShop.sudadera",
-      "pk": 6,
-      "fields": {
-        "conCapucha": false,
-        "talla": "M"
-      }
-    },
-    {
-      "model": "SportlockerShop.sudadera",
-      "pk": 9,
-      "fields": {
-        "conCapucha": true,
-        "talla": "L"
-      }
-    },
-    {
-      "model": "SportlockerShop.sudadera",
-      "pk": 10,
-      "fields": {
-        "conCapucha": true,
-        "talla": "M"
-      }
-    },
-    {
-      "model": "SportlockerShop.sudadera",
-      "pk": 11,
-      "fields": {
-        "conCapucha": false,
-        "talla": "M"
-      }
-    },
-    {
-      "model": "SportlockerShop.sudadera",
-      "pk": 12,
-      "fields": {
-        "conCapucha": false,
-        "talla": "L"
-      }
-    }
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-11-19T16:36:12.478Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Camiseta object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-11-19T16:36:53.508Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Usuario object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-11-19T16:37:08.616Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Compra object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-11-19T16:38:48.494Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Sudadera object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-11-19T16:40:06.289Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Zapatilla object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-11-20T14:49:19.882Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Camiseta object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-11-20T16:40:38.998Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Camiseta object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-11-20T16:42:58.018Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Camiseta object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-11-20T16:44:48.645Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Camiseta object (5)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-11-20T17:41:28.440Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Sudadera object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-11-21T08:21:52.689Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Camiseta object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2022-11-21T08:24:02.689Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Camiseta object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2022-11-21T08:25:18.881Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Sudadera object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2022-11-21T08:26:32.995Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Sudadera object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2022-11-21T08:27:44.018Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Sudadera object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2022-11-21T08:29:08.208Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Sudadera object (12)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2022-11-21T08:30:31.547Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Zapatilla object (13)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2022-11-21T08:31:27.035Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Zapatilla object (14)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2022-11-21T08:32:58.545Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Sudadera object (9)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2022-11-21T08:34:48.130Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Sudadera object (9)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2022-11-23T19:46:45.064Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Usuario object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2022-11-23T21:03:58.624Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Usuario object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2022-12-10T13:00:28.438Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Usuario object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2022-12-10T13:00:31.622Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Usuario object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2022-12-13T14:57:06.906Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Aitor",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2022-12-13T14:58:37.442Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Aitor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2022-12-13T15:00:40.737Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Aitor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2022-12-13T15:01:56.101Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Aitor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2022-12-13T15:10:07.423Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Aitor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2022-12-13T17:22:12.549Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Ane",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2022-12-13T17:22:12.557Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Ane",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2022-12-13T17:22:12.565Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Asier",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2022-12-13T19:43:22.013Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Chicago Bulls 23",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2022-12-13T19:45:53.711Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Brasil 1� Equipacion 2022",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2022-12-13T19:47:42.832Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Adidas 3 bandas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2022-12-13T19:51:52.935Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Real Sociedad 2� Equipacion 2022/2023",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2022-12-13T19:55:42.123Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Nike dri-fit",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2022-12-13T20:02:13.431Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Adidas 3 bandas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2022-12-13T21:29:34.385Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Reebok training essentials",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2022-12-13T21:31:15.202Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Nike swoosh",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2022-12-13T21:32:50.429Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Bullpadel Rodicol",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2022-12-13T21:46:34.827Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Joma Crew IV",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nombre\", \"Descripcion\", \"Imagen1\", \"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2022-12-13T21:48:01.152Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Adidas Big Logo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2022-12-13T21:52:56.411Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Nike Air Zoom Pegasus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2022-12-13T21:59:45.589Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Nike waffle debut",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nombre\", \"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2022-12-13T22:03:16.876Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Asics Gel Pulse 13",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagen2\", \"Imagen3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2022-12-14T17:40:39.247Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Asics Gel Pulse 13",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descripcion\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2022-12-14T17:41:05.549Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Nike Air Zoom Pegasus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descripcion\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2022-12-14T17:41:17.459Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Nike waffle debut",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2022-12-14T17:41:29.856Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Adidas 3 bandas",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2022-12-14T17:41:41.668Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Reebok training essentials",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descripcion\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2022-12-14T17:41:49.079Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Nike swoosh",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descripcion\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2022-12-14T17:41:56.867Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Bullpadel Rodicol",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descripcion\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2022-12-14T17:42:02.919Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Joma Crew IV",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2022-12-14T17:42:07.307Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "Adidas Big Logo",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2022-12-14T17:42:25.591Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Brasil primera Equipacion 2022",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nombre\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2022-12-14T17:42:35.338Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Real Sociedad 2ª Equipacion 2022/2023",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nombre\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2022-12-14T17:42:46.648Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Brasil 1ª Equipacion 2022",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nombre\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2022-12-14T17:47:08.344Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Brasil primera Equipacion 2022",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nombre\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2022-12-14T17:47:17.508Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Real Sociedad segunda Equipacion 2022/2023",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nombre\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add ropa",
+    "content_type": 7,
+    "codename": "add_ropa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change ropa",
+    "content_type": 7,
+    "codename": "change_ropa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete ropa",
+    "content_type": 7,
+    "codename": "delete_ropa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view ropa",
+    "content_type": 7,
+    "codename": "view_ropa"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add usuario",
+    "content_type": 8,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change usuario",
+    "content_type": 8,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete usuario",
+    "content_type": 8,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view usuario",
+    "content_type": 8,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add zapatilla",
+    "content_type": 9,
+    "codename": "add_zapatilla"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change zapatilla",
+    "content_type": 9,
+    "codename": "change_zapatilla"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete zapatilla",
+    "content_type": 9,
+    "codename": "delete_zapatilla"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view zapatilla",
+    "content_type": 9,
+    "codename": "view_zapatilla"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add compra",
+    "content_type": 10,
+    "codename": "add_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change compra",
+    "content_type": 10,
+    "codename": "change_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete compra",
+    "content_type": 10,
+    "codename": "delete_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view compra",
+    "content_type": 10,
+    "codename": "view_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add camiseta",
+    "content_type": 11,
+    "codename": "add_camiseta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change camiseta",
+    "content_type": 11,
+    "codename": "change_camiseta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete camiseta",
+    "content_type": 11,
+    "codename": "delete_camiseta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view camiseta",
+    "content_type": 11,
+    "codename": "view_camiseta"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add sudadera",
+    "content_type": 12,
+    "codename": "add_sudadera"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change sudadera",
+    "content_type": 12,
+    "codename": "change_sudadera"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete sudadera",
+    "content_type": 12,
+    "codename": "delete_sudadera"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view sudadera",
+    "content_type": 12,
+    "codename": "view_sudadera"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$vA7zTU1kalZKe5r9y8Aor3$lKrbiLU4IspBjfQcVYdH20ST0uw9WmWci6x4F+ah47I=",
+    "last_login": "2022-12-13T17:21:45.167Z",
+    "is_superuser": true,
+    "username": "asier",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-11-19T16:05:38.593Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$PqLw8H5RBtQjhq1Dv8a5pU$JHx0Y7rvXB5snvigjawMd4GHfAHRilw6d4EV2twziKw=",
+    "last_login": "2022-12-13T15:10:51.052Z",
+    "is_superuser": false,
+    "username": "Aitor",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-12-13T14:58:37Z",
+    "groups": [],
+    "user_permissions": [
+      41,
+      42,
+      43,
+      44,
+      40,
+      25,
+      26,
+      27,
+      28,
+      45,
+      46,
+      47,
+      48,
+      32,
+      33,
+      34,
+      35,
+      36
     ]
-    
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "SportlockerShop",
+    "model": "ropa"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "SportlockerShop",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "SportlockerShop",
+    "model": "zapatilla"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "SportlockerShop",
+    "model": "compra"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "SportlockerShop",
+    "model": "camiseta"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "SportlockerShop",
+    "model": "sudadera"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "516ab6okcro6d3x74tjuctlzfmex3x0m",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmIENduu8ZGpiZStVAUtqV8e7apAvd_vfef6kxbmsetybLOLO6KFCn3y1FekjZAd9juVVNtazLnPSu6IM2PVSW5_Vw_w5ybPlbB2RCJIZA4GTqJssm9JDOKA4MgrWSkkHuyRtwwXbOQwo-Om8CA1r1_gDWaDbg:1ox2xK:IFxekhzBSGqe81jh46kGXW_yLL1wj4jUS7qvJH9Iwz8",
+    "expire_date": "2022-12-05T09:19:10.879Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5jp5txffuzc9iqd5jxh8mmfjc4slbsby",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmIENduu8ZGpiZStVAUtqV8e7apAvd_vfef6kxbmsetybLOLO6KFCn3y1FekjZAd9juVVNtazLnPSu6IM2PVSW5_Vw_w5ybPlbB2RCJIZA4GTqJssm9JDOKA4MgrWSkkHuyRtwwXbOQwo-Om8CA1r1_gDWaDbg:1p58yP:14qljJA1DlmRdq7rxrFUhKkcsq3J1F5F0Uq0A1sMxUQ",
+    "expire_date": "2022-12-27T17:21:45.177Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "meggxs83mkpwc4adk96icn5lpddnjylz",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmIENduu8ZGpiZStVAUtqV8e7apAvd_vfef6kxbmsetybLOLO6KFCn3y1FekjZAd9juVVNtazLnPSu6IM2PVSW5_Vw_w5ybPlbB2RCJIZA4GTqJssm9JDOKA4MgrWSkkHuyRtwwXbOQwo-Om8CA1r1_gDWaDbg:1ox21W:GllhmjQ8Do5byIgoMfA1tqi2ctXILI7o9II0343LjZk",
+    "expire_date": "2022-12-05T08:19:26.538Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v2uvl1t2hx1rbidc02jy2isem4fxov4o",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmIENduu8ZGpiZStVAUtqV8e7apAvd_vfef6kxbmsetybLOLO6KFCn3y1FekjZAd9juVVNtazLnPSu6IM2PVSW5_Vw_w5ybPlbB2RCJIZA4GTqJssm9JDOKA4MgrWSkkHuyRtwwXbOQwo-Om8CA1r1_gDWaDbg:1owQYH:1pTlJMfjG-QuWQYjCtKhUqlV-ei8UqfxvoGuD7teQ3A",
+    "expire_date": "2022-12-03T16:18:45.589Z"
+  }
+},
+{
+  "model": "SportlockerShop.usuario",
+  "pk": 1,
+  "fields": {
+    "nombre": "Asier",
+    "contrasenya": "Irun",
+    "email": "asierolaizola@gmail.com"
+  }
+},
+{
+  "model": "SportlockerShop.usuario",
+  "pk": 2,
+  "fields": {
+    "nombre": "Julen",
+    "contrasenya": "Tolosa",
+    "email": "julendiez@opendeusto.es"
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 1,
+  "fields": {
+    "nombre": "Nike dri-fit",
+    "precio": 30,
+    "descripcion": "Camiseta Nike blanca de manga corta.",
+    "cantidad": 5,
+    "imagen1": "https://www.forumsport.com/medias/medias-1000654282-00-P-X-20201217170007.jpg?context=bWFzdGVyfGltYWdlc3w3OTk5NXxpbWFnZS9qcGVnfGltYWdlcy9oMGMvaGJjLzk5MDIxOTMwODIzOTguanBnfGFkYWJkODczNTkxMTFlODYyNDYyYTgyMzlmMGE2NTFiZWMxY2ZiZDFmNTViYjcyYWI0Nzc2ZmI1MGUwN2FmYjI",
+    "imagen2": "https://www.forumsport.com/medias/medias-1000654282-01-S-X-20201217170007.jpg?context=bWFzdGVyfGltYWdlc3w5NzI1OHxpbWFnZS9qcGVnfGltYWdlcy9oOGIvaDNlLzk5MDIxOTMyNzkwMDYuanBnfDFlMGMwM2E0YzM0ZjhhYTM1OGU3OGQwNzBmMjUzZGRmMmY3YzZkMWUyOTU3NmVkMzhkMmNiZTgzNTk3Njc5ZGY",
+    "imagen3": "https://www.forumsport.com/medias/medias-1000654282-02-X-X-20201217170007.jpg?context=bWFzdGVyfGltYWdlc3w5MTE0M3xpbWFnZS9qcGVnfGltYWdlcy9oNWIvaGIxLzk5MDIxOTM0NzU2MTQuanBnfDljMzhkNGEzMWM1MmMwYjhiNWY3OTc2MjE1YTc3NjZkNjYwMjdkYjg2M2EzOWFmYmQyZTY0ODZkMGNlYzI4ZDk",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 2,
+  "fields": {
+    "nombre": "Nike swoosh",
+    "precio": 50,
+    "descripcion": "Sudadera negra Nike con capucha, colaboracion con swoosh",
+    "cantidad": 5,
+    "imagen1": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/292a532c-8ca9-45dc-ba48-7b6a21c95ac2/air-sudadera-con-capucha-de-tejido-fleece-cepillado-en-la-parte-trasera-VwcZrt.png",
+    "imagen2": "https://cdn.laredoute.com/products/b/c/f/bcfc0f97353f8807dceb6851085bf6a5.jpg?imgopt=twic&twic=v1/cover=1100x1100",
+    "imagen3": "https://cdn.laredoute.com/products/3/7/c/37c195ee65e4ab19787847eabc92d25d.jpg?imgopt=twic&twic=v1/cover=1100x1100",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 3,
+  "fields": {
+    "nombre": "Nike waffle debut",
+    "precio": 50,
+    "descripcion": "Zapatillas Nike color negro y blanco de cuero.",
+    "cantidad": 5,
+    "imagen1": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/26dd42ea-4c98-455e-ab53-e74db2fb1de2/waffle-debut-zapatillas-gV9P67.png",
+    "imagen2": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3cfea17f-b63f-42c8-a3c5-d1d84afb9527/waffle-debut-zapatillas-gV9P67.png",
+    "imagen3": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1b2c34a3-67c2-46ae-8bc6-64e12ee702eb/waffle-debut-zapatillas-gV9P67.png",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 4,
+  "fields": {
+    "nombre": "Real Sociedad segunda Equipacion 2022/2023",
+    "precio": 75,
+    "descripcion": "Camiseta de la real sociedad temporada 2022/2023. Marca Macron con el parche de la liga.",
+    "cantidad": 5,
+    "imagen1": "https://www.futbolemotion.com/imagesarticulos/176155/grandes/camiseta-macron-real-sociedad-de-futbol-segunda-equipacion-2022-2023-nino-0.jpg",
+    "imagen2": "https://www.futbolemotion.com/imagesarticulos/176155/750/camiseta-macron-real-sociedad-de-futbol-segunda-equipacion-2022-2023-nino-1.webp",
+    "imagen3": "https://www.futbolemotion.com/imagesarticulos/176155/grandes/camiseta-macron-real-sociedad-de-futbol-segunda-equipacion-2022-2023-nino-2.jpg",
+    "articuloTop": true
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 5,
+  "fields": {
+    "nombre": "Adidas 3 bandas",
+    "precio": 30,
+    "descripcion": "Camiseta de Adidas color blanco y negro.",
+    "cantidad": 5,
+    "imagen1": "https://assets.adidas.com/images/w_600,f_auto,q_auto/bac60bc110584f7aafb4ac4500f4c67f_9366/Camiseta_adidas_Designed_To_Move_Big_Logo_Blanco_GN1479_01_laydown.jpg",
+    "imagen2": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/edabad9616534a8d8c56ac4500f5187c_9366/Camiseta_adidas_Designed_To_Move_Big_Logo_Blanco_GN1479_02_laydown_hover.jpg",
+    "imagen3": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b31ad95bed214126a3f6ac4500f53984_9366/Camiseta_adidas_Designed_To_Move_Big_Logo_Blanco_GN1479_43_detail.jpg",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 6,
+  "fields": {
+    "nombre": "Reebok training essentials",
+    "precio": 50,
+    "descripcion": "La sudadera sin capucha Reebok Training Essentials Vector de color negro con para hombre es ideal para el dia a dia gracias a su comodidad y ligereza.",
+    "cantidad": 5,
+    "imagen1": "https://img01.ztat.net/article/spp-media-p1/210615a7d8064d9ab5d9e46ef6825c04/d52239f180eb4e6f900574083ff6163a.jpg?imwidth=1800",
+    "imagen2": "https://img01.ztat.net/article/spp-media-p1/e0d9cf9f5b944f469293877a7792b1f6/1b5248b093f44fc0b0f2c1e4fa6d1ff6.jpg?imwidth=1800",
+    "imagen3": "https://img01.ztat.net/article/spp-media-p1/cd279851516841efbebe9481728d9949/2dd09457da9a45f68d64dbdb5c94ab17.jpg?imwidth=1800",
+    "articuloTop": true
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 7,
+  "fields": {
+    "nombre": "Brasil primera Equipacion 2022",
+    "precio": 75,
+    "descripcion": "Camiseta del mundial de Brasil color amarillo.",
+    "cantidad": 3,
+    "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/19ac022b-b815-40ac-8bae-2aafe710dded/primera-equipacion-stadium-brasil-2022-23-camiseta-de-futbol-dri-fit-msrwq9.png",
+    "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/925c24b5-85d8-436a-be8c-3769f2d6bd7c/primera-equipacion-stadium-brasil-2022-23-camiseta-de-futbol-dri-fit-msrwq9.png",
+    "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/a14412c3-cce8-4e34-89b5-c4ecaeb131ad/primera-equipacion-stadium-brasil-2022-23-camiseta-de-futbol-dri-fit-msrwq9.png",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 8,
+  "fields": {
+    "nombre": "Chicago Bulls 23",
+    "precio": 150,
+    "descripcion": "Camiseta Chicago Bull Michael Jordan 1995.",
+    "cantidad": 2,
+    "imagen1": "https://www.infobae.com/new-resizer/O3b1EI7oUYbxkUVFme3neOn8hy8=/992x992/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/QIFPZAOXKZC5PDTFIJPWQS26XQ.jpg",
+    "imagen2": "https://cdn1.fuikaomar.es/25825-home_default/camiseta-mitchell-and-ness-chicago-bulls-authentic-michael-jordan-1996-97.jpg",
+    "imagen3": "https://www.replicascamiseta.com/images/Camisetas%20NBA%20Retro/Chicago%20Bulls/Camiseta_Chicago_Bulls_Michael_Jordan_NO_23_Mitchell_&_Ness_1996-97_Rojo_2.jpg",
+    "articuloTop": true
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 9,
+  "fields": {
+    "nombre": "Adidas Big Logo",
+    "precio": 45,
+    "descripcion": "Sudadera con capucha Adidas Big Logo color azul.",
+    "cantidad": 10,
+    "imagen1": "https://padel.tienda/wp-content/uploads/2017/05/Sudadera-Adidas-Big-Logo-Azul_2021.jpg",
+    "imagen2": "https://padel.tienda/wp-content/uploads/2017/05/Sudadera-Adidas-Big-Logo-Azul-21.jpg",
+    "imagen3": "https://padel.tienda/wp-content/uploads/2017/05/Sudadera-Adidas-Big-Logo-Azul.jpg",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 10,
+  "fields": {
+    "nombre": "Joma Crew IV",
+    "precio": 35,
+    "descripcion": "Sudadera con capucha Joma Crew IV negro antracita.",
+    "cantidad": 8,
+    "imagen1": "https://www.joma-sport.com/dw/image/v2/BFRV_PRD/on/demandware.static/-/Sites-joma-masterCatalog/default/dw7e3d6fde/images/medium/101544.110_1.jpg?sw=460&sh=475&sm=fit",
+    "imagen2": "https://www.joma-sport.com/dw/image/v2/BFRV_PRD/on/demandware.static/-/Sites-joma-masterCatalog/default/dw031df0ac/images/medium/101544.110_3.jpg?sw=460&sh=475&sm=fit",
+    "imagen3": "https://www.joma-sport.com/dw/image/v2/BFRV_PRD/on/demandware.static/-/Sites-joma-masterCatalog/default/dw0feaf932/images/medium/101544.110_2.jpg?sw=460&sh=475&sm=fit",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 11,
+  "fields": {
+    "nombre": "Bullpadel Rodicol",
+    "precio": 45,
+    "descripcion": "Sudadera de padel muy moderna, llamativa y original que seguro te va a encantar.",
+    "cantidad": 7,
+    "imagen1": "https://padel.tienda/wp-content/uploads/2022/01/sudadera-bullpadel-rodicol-azul-marino.jpg",
+    "imagen2": "https://www.bullpadel.com/7861-large_default/sudadera-bullpadel-rodicol-azul-marino.jpg",
+    "imagen3": "https://www.bullpadel.com/7858-large_default/sudadera-bullpadel-rodicol-azul-marino.jpg",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 12,
+  "fields": {
+    "nombre": "Adidas 3 bandas",
+    "precio": 50,
+    "descripcion": "Sudadera Adidas negra con 3 bandas muy comoda.",
+    "cantidad": 5,
+    "imagen1": "https://img01.ztat.net/article/spp-media-p1/815baca76aae42228b9b6d0ab5262098/790df50206f14003ace610bb42d48020.jpg",
+    "imagen2": "https://img01.ztat.net/article/spp-media-p1/2fe5efe862974524a01f5cc656bf28c2/f3605665c2a8498287f0706c3d28f4e9.jpg",
+    "imagen3": "https://img01.ztat.net/article/spp-media-p1/fcd2d17534d4420682613880853cbd59/deae8ba3dab74fca99f652fc587d972a.jpg",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 13,
+  "fields": {
+    "nombre": "Nike Air Zoom Pegasus",
+    "precio": 82,
+    "descripcion": "Para correr por asfalto mas de 4 veces por semana no menos de 60 minutos. Es hora de volar con la nuevas zapatillas de hombre Nike Air Zoom Pegasus 39 color azul.",
+    "cantidad": 2,
+    "imagen1": "https://www.forumsport.com/medias/medias-1000797659-00-P-X-20220401151424.jpg?context=bWFzdGVyfGltYWdlc3w5ODU4MHxpbWFnZS9qcGVnfGltYWdlcy9oMGIvaGMwLzEwNjY2MDgwMjA2ODc4LmpwZ3wyYjdiMDNkMjgwNzQ4NzJiODNiZDYzZDJlNDY4MTZmNTc3YTkyODMxMzU0MzczYWQ0MzUyMDc2ZWY0M2Q0NTdh",
+    "imagen2": "https://www.forumsport.com/medias/medias-1000797659-01-S-X-20220401151424.jpg?context=bWFzdGVyfGltYWdlc3w5NDg0N3xpbWFnZS9qcGVnfGltYWdlcy9oZDIvaGZkLzEwNjY2MDgwNDAzNDg2LmpwZ3xiZmI3NTc5NTc2YmQzOWIwNDUxYTMzNWI5ZDFjZjE3ZGI4N2Q5NjhkNThiN2QzZDc2NTQ0MjBiYjlkMWU4Mjlj",
+    "imagen3": "https://www.forumsport.com/medias/medias-1000797659-02-X-X-20220401151424.jpg?context=bWFzdGVyfGltYWdlc3w5ODI0N3xpbWFnZS9qcGVnfGltYWdlcy9oZDgvaDRjLzEwNjY2MDc3NjUwOTc0LmpwZ3w1YTE4ODQ5YWQzNGQ4OTI3MWRhOTY1OTQ3OGRkNzNmZWY3ZWI2ZjM5M2M0MzIwYTc3MDRjMzYxOWVkMzgyZTA2",
+    "articuloTop": true
+  }
+},
+{
+  "model": "SportlockerShop.ropa",
+  "pk": 14,
+  "fields": {
+    "nombre": "Asics Gel Pulse 13",
+    "precio": 100,
+    "descripcion": "Para correr por asfalto 2 a 4 veces por semana aproximadamente hasta 45 minutos. Manten tu mente centrada en el entrenamiento y mejora tus tiempos con las zapatillas de running mujer Asics Gel-Pulse 13.",
+    "cantidad": 80,
+    "imagen1": "https://www.forumsport.com/medias/medias-1000794316-00-P-X-20220112124128.jpg?context=bWFzdGVyfGltYWdlc3w5Njc3OXxpbWFnZS9qcGVnfGltYWdlcy9oN2UvaDBkLzEwNTQwMzA2MzMzNzI2LmpwZ3w5ODM3MzZkNjA4Mjk0ZDNkYjc2N2U4MDRjYmQ1MjhhZjlkOTg2ZDFkOTdmMjA1NTA2ZjU1ZWMxMGJiMDEwZjdm",
+    "imagen2": "https://www.forumsport.com/medias/medias-1000794316-01-X-X-20220112124128.jpg?context=bWFzdGVyfGltYWdlc3w5OTYwM3xpbWFnZS9qcGVnfGltYWdlcy9oOWYvaDU5LzEwNTQwMzE1MTE1NTUwLmpwZ3w4OGNhNzQ1NDNmZGNhNzViMmZhMmVhZjFkOGU0OTU0MTJiMjkzNzhmOWI2NGZjNjBkMTIzZTQwMGE1YzBhM2Fm",
+    "imagen3": "https://www.forumsport.com/medias/medias-1000794316-04-S-X-20220112124128.jpg?context=bWFzdGVyfGltYWdlc3w5NzUxOXxpbWFnZS9qcGVnfGltYWdlcy9oMGIvaGRiLzEwNTQwMzE1NzA1Mzc0LmpwZ3w2MDNhYzRkMTRlZDliOTcwYTUzZjg2ZTY0MTRmYjlkNDQ0YThiYjQ1NjZjODUwNGIxMGE4NTJkZTdiMDgyMDA1",
+    "articuloTop": false
+  }
+},
+{
+  "model": "SportlockerShop.compra",
+  "pk": 1,
+  "fields": {
+    "usuario": 1,
+    "fechaDeCompra": "2022-11-19",
+    "ropa": [
+      1
+    ]
+  }
+},
+{
+  "model": "SportlockerShop.camiseta",
+  "pk": 1,
+  "fields": {
+    "talla": "L"
+  }
+},
+{
+  "model": "SportlockerShop.camiseta",
+  "pk": 4,
+  "fields": {
+    "talla": "L"
+  }
+},
+{
+  "model": "SportlockerShop.camiseta",
+  "pk": 5,
+  "fields": {
+    "talla": "M"
+  }
+},
+{
+  "model": "SportlockerShop.camiseta",
+  "pk": 7,
+  "fields": {
+    "talla": "S"
+  }
+},
+{
+  "model": "SportlockerShop.camiseta",
+  "pk": 8,
+  "fields": {
+    "talla": "XL"
+  }
+},
+{
+  "model": "SportlockerShop.zapatilla",
+  "pk": 3,
+  "fields": {
+    "talla": 45
+  }
+},
+{
+  "model": "SportlockerShop.zapatilla",
+  "pk": 13,
+  "fields": {
+    "talla": 44
+  }
+},
+{
+  "model": "SportlockerShop.zapatilla",
+  "pk": 14,
+  "fields": {
+    "talla": 38
+  }
+},
+{
+  "model": "SportlockerShop.sudadera",
+  "pk": 2,
+  "fields": {
+    "conCapucha": true,
+    "talla": "L"
+  }
+},
+{
+  "model": "SportlockerShop.sudadera",
+  "pk": 6,
+  "fields": {
+    "conCapucha": false,
+    "talla": "M"
+  }
+},
+{
+  "model": "SportlockerShop.sudadera",
+  "pk": 9,
+  "fields": {
+    "conCapucha": true,
+    "talla": "L"
+  }
+},
+{
+  "model": "SportlockerShop.sudadera",
+  "pk": 10,
+  "fields": {
+    "conCapucha": true,
+    "talla": "M"
+  }
+},
+{
+  "model": "SportlockerShop.sudadera",
+  "pk": 11,
+  "fields": {
+    "conCapucha": false,
+    "talla": "M"
+  }
+},
+{
+  "model": "SportlockerShop.sudadera",
+  "pk": 12,
+  "fields": {
+    "conCapucha": false,
+    "talla": "L"
+  }
+}
+]

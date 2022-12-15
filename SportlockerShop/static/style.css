@@ -315,10 +315,11 @@ table tr td
 
 .contenidoRopa{
   font:bold;
-  margin:5% auto;
+  margin-right: 10%;
+  width: 60%;
 }
 .contenidoRopa img{
-  width:30%;
+  width:40%;
   margin:2%;
 }
 .contenidoRopa p{
@@ -400,19 +401,19 @@ table tr td
 }
 
 .slider-inner{
-  width: 500px;
-  height: 300px;
+  width:50%;
+  height: 100%;
   position:relative;
   overflow: hidden;
   float:left;
   padding: 3px;
-  border:#666 solid 1px;
 }
 
 .slider-inner img{
   display: none;
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  border:#666 solid 1px;
+
 }
 
 .slider-inner img.active{
@@ -436,4 +437,19 @@ table tr td
   position:relative;
   margin-left: -45px;
   z-index: 100;
+}
+#toTop.submit{
+  font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin-top:1%;
+  margin-left: 56%;
+  margin-right: 2%;
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #1293EE; 
+  color: #FFF;
+  position: fixed;
+
 }

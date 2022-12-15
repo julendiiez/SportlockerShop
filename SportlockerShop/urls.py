@@ -1,7 +1,7 @@
 from django.urls import path
 
 from. import views
-from SportlockerShop.views import RopaListView,ZapatillasListView,TopVentasListView,DetalleDetailView
+from SportlockerShop.views import RopaListView,ZapatillasListView,TopVentasListView,DetalleDetailView,loadDecriptionData
 
 
 urlpatterns = [
@@ -13,4 +13,5 @@ urlpatterns = [
     path('ropa/<pk>/',DetalleDetailView.as_view(),name='vista_detalle'),
     path('zapatillas/<int:zapatilla_id>',views.detallezapatilla,name='vista_detalle_zapatilla'),
     path('registroCorrecto/',views.post_formRegistrar,name="registroCorrecto"),
+    path('dataDescription/<int:ropa_id>',loadDecriptionData,name="description"),
     ]
