@@ -339,11 +339,18 @@ table tr td
   opacity: 1;
   
 }
+.formulario__existe{
+  color:orange;
+  opacity: 1;
+}
 .formulario__incorrecto .contact{
   border:3px solid #bb2929;
 }
 .formulario__correcto .contact{
   border:3px solid #1ed12d;
+}
+.formulario__existe .contact{
+  border:3px solid orange;
 }
 
 
@@ -367,6 +374,16 @@ table tr td
 }
 .formulario_error-activo{
   display: block;
+}
+.formulario_existente{
+  text-align: center;
+  display: none;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.formulario_existente-activo{
+  display: block;
+
 }
 
 .formulario_mensaje-exito {
